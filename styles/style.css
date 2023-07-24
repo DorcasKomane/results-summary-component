@@ -34,18 +34,18 @@ span {
 }
 
 .left-side, .right-side {
-    padding: 10px;
+    padding: 20px;
     max-width: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
 
     outline: 1px solid blue;
 }
 
 .left-side {
-    
+    justify-content: center;
+    align-items: center;
     background: var(--gradient-light-slate-blue);
     border-radius: 10px;
 }
@@ -67,7 +67,8 @@ h1,
     font-size: 10px;
 }
 .middle .score {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .left-side p {
@@ -76,8 +77,64 @@ h1,
     text-align: center;
 }
 
+h1, h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary-item-name {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .5;
+}
+
+#reaction {
+    color:hsl(0, 100%, 67%);
+}
+
+#memory {
+    color:hsl(39, 100%, 56%);
+}
+
+#verbal {
+    color:hsl(166, 100%, 37%);
+}
+
+#visual{
+    color: hsl(234, 85%, 45%);
+}
+
+#item-01 {
+    background: hsla(0, 100%, 67%, 0.05);
+}
+
+#item-02 {
+    background: hsla(39, 100%, 56%, 0.05);
+}
+
+#item-03 {
+    background: hsla(166, 100%, 37%, 0.05);
+}
+
+#item-04 {
+    background: hsla(234, 85%, 45%, 0.05);
+}
+
+
 .btn {
-    padding: 5px 40px;
+    padding: 10px 40px;
     border: 1px solid var(--neutral-dark-gray-blue);
     background: var(--neutral-dark-gray-blue);
     border-radius: 50px;
@@ -86,12 +143,6 @@ h1,
     letter-spacing: 1px;
     font-size: 12px;
 }
-
-h1, h2 {
-    font-size: 18px;
-    font-weight: 500;
-}
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
