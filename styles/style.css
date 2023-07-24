@@ -29,10 +29,51 @@ body {
     outline: 1px solid red;
 }
 
+span {
+    display: block;
+}
+
 .left-side, .right-side {
     padding: 10px;
-    max-width: 300px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     outline: 1px solid blue;
+}
+
+.left-side {
+    
+    background: var(--gradient-light-slate-blue);
+    border-radius: 10px;
+}
+
+h1, 
+.left-side span,
+.left-side p {
+    color: var(--neutral-white);
+}
+
+.middle {
+    text-align: center;
+    background: var(--gradient-violet-blue);
+    margin: 20px 0;
+    padding: 50px;
+    border-radius: 150%;
+}
+.middle span {
+    font-size: 10px;
+}
+.middle .score {
+    font-size: 30px;
+}
+
+.left-side p {
+    font-size: 14px;
+    max-width: 80%;
+    text-align: center;
 }
 
 .btn {
@@ -42,6 +83,13 @@ body {
     border-radius: 50px;
     margin: 20px 0;
     color:var(--neutral-white);
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+h1, h2 {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
