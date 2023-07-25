@@ -21,15 +21,24 @@ body {
 }
 
 .main-container {
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    height: 400px;
+    border-radius: 20px;
+    /* height: 400px; */
     width: 500px;
 
-    outline: 1px solid red;
+    box-shadow: 10px 10px 20px hsl(221, 100%, 96%);
+
+    /* outline: 1px solid red; */
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 span {
@@ -39,7 +48,7 @@ span {
 .left-side, .right-side {
     padding: 20px;
     width: 250px;
-    /* height: 400px; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -50,8 +59,8 @@ span {
 .left-side {
     justify-content: center;
     align-items: center;
-    background: linear-gradient(var(--gradient-violet-blue),var(--gradient-light-slate-blue));
-    border-radius: 10px;
+    background: linear-gradient(0deg, var(--gradient-violet-blue),var(--gradient-light-slate-blue));
+    border-radius: 20px;
 }
 
 h1, 
@@ -72,9 +81,11 @@ h1,
     margin: 10px 0 30px 0;
     padding: 15px;
 }
-.middle span {
-    font-size: 10px;
+.middle .sub-text {
+    font-size: 12px;
+    color: hsl(241, 100%, 89%);
 }
+
 .middle .score {
     font-size: 40px;
     font-weight: 800;
@@ -100,9 +111,9 @@ h1{
 }
 
 h2 {
-    font-weight: 700;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 18px;
+    padding-bottom: 10px;
 }
 
 .summary-item {
@@ -174,10 +185,10 @@ h2 {
 }
 
 .btn:hover {
-    background: var(--gradient-light-slate-blue);
+    background: linear-gradient(0deg, var(--gradient-violet-blue),var(--gradient-light-slate-blue));
 }
 
-.attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+.attribution { font-size: 11px; text-align: center; margin-top: 50px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
