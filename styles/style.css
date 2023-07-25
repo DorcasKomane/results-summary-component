@@ -75,11 +75,12 @@ h1,
     justify-content: center;
     align-items: center;
     background: var(--gradient-violet-blue);
+    background: linear-gradient(0deg, hsla(256, 72%, 46%, 0.03),var(--gradient-violet-blue));
     height: 100px;
     width: 100px;
     border-radius: 50%;
     margin: 10px 0 30px 0;
-    padding: 15px;
+    padding: 10px;
 }
 .middle .sub-text {
     font-size: 12px;
@@ -188,8 +189,38 @@ h2 {
     background: linear-gradient(0deg, var(--gradient-violet-blue),var(--gradient-light-slate-blue));
 }
 
-.attribution { font-size: 11px; text-align: center; margin-top: 50px;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 50px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 
 /* Media Queries */
+@media screen and (max-width: 375px){
+    .main-container {
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .center {
+        position: absolute;
+        left: 100%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+
+        display: block;
+    }
+
+    .left-side {
+        border-radius: 0 0 20px 20px;
+    }
+}
