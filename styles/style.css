@@ -189,8 +189,19 @@ h2 {
     background: linear-gradient(0deg, var(--gradient-violet-blue),var(--gradient-light-slate-blue));
 }
 
-.attribution { font-size: 11px; text-align: center; margin-top: 50px;}
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 50px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 
 /* Media Queries */
