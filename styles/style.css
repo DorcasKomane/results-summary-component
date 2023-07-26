@@ -18,6 +18,7 @@
 body {
     font-size: 18px;
     font-family: 'Hanken Grotesk', sans-serif;
+    max-width: 1440px;
 }
 
 .main-container {
@@ -131,9 +132,18 @@ h2 {
     letter-spacing: .5;
 }
 
+.item-title {
+    display: flex;
+}
+
+.item-title img {
+    width: 15px;
+    padding-right: 5px;
+}
+
 .item-score {
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .item-score-top {
@@ -190,7 +200,6 @@ h2 {
 }
 
 .attribution { 
-    
     position: absolute;
     left: 50%;
     bottom: 5%;
@@ -212,15 +221,22 @@ h2 {
     }
 
     .center {
-        position: absolute;
+        /* position: absolute; */
         left: 100%;
         top: 100%;
-        transform: translate(-50%, -50%);
-
+        /* transform: translate(-50%, -50%); */
         display: block;
     }
 
     .left-side {
         border-radius: 0 0 20px 20px;
+    }
+
+    .left-side p {
+        font-size: 14px;
+    }
+
+    .attribution { 
+        display: none;
     }
 }
