@@ -19,6 +19,8 @@ body {
     font-size: 18px;
     font-family: 'Hanken Grotesk', sans-serif;
     max-width: 1440px;
+    box-sizing: border-box;
+
 }
 
 .main-container {
@@ -112,6 +114,10 @@ h1{
     color: hsl(241, 100%, 89%);
 }
 
+.right-side {
+    border-radius: 0 20px 20px 0;
+}
+
 h2 {
     font-weight: 800;
     font-size: 18px;
@@ -138,7 +144,8 @@ h2 {
 
 .item-title img {
     width: 15px;
-    padding-right: 5px;
+    height: 15px;
+    padding: 2px 5px 0 0;
 }
 
 .item-score {
