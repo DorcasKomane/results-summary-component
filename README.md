@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/DorcasKomane/results-summary-component)
+- Live Site URL: [Add live site URL here](https://frontendmentor-results-component.netlify.app/)
 
 ## My process
 
@@ -42,13 +42,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -89,9 +82,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Dorcas Komane Portfolio Website](https://dorcas-portfolio-site.netlify.app/)
+- Frontend Mentor - [@DorcasKomane](https://www.frontendmentor.io/profile/DorcasKomane)
+- Twitter - [@DorcasInTech](https://www.twitter.com/DorcasInTech)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
