@@ -26,9 +26,10 @@ body {
     display: block;
     border-radius: 20px;
     /* width: 500px; */
+    margin: 20px;
     box-shadow: 10px 10px 20px hsl(221, 100%, 96%);
 
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .left-side, .right-side {
@@ -43,7 +44,7 @@ body {
 .left-side{
     align-items: center;
     background: linear-gradient(0deg, var(--gradient-violet-blue),var(--gradient-light-slate-blue));
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 .middle {
@@ -72,8 +73,8 @@ body {
 }
 
 .bottom-title {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
     letter-spacing: 0.5px;
     color: var(--neutral-white);
 }
@@ -83,11 +84,12 @@ body {
     font-weight: 100;
     text-align: center;
     color: hsl(241, 100%, 89%);
-    padding: 5px 0;
+    padding: 5px 10px;
 }
 
 h1{
     font-size: 18px;
+    font-weight: 500;
     color: hsl(241, 100%, 89%);
 }
 
@@ -176,7 +178,7 @@ h2 {
     border: 1px solid var(--neutral-dark-gray-blue);
     background: var(--neutral-dark-gray-blue);
     border-radius: 50px;
-    margin: 30px 10px 0 10px;
+    margin-top: 20px;
     color:var(--neutral-white);
     letter-spacing: 1px;
     font-size: 12px;
@@ -202,8 +204,8 @@ h2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 500px;
-
-        outline: 1px solid red;
+        border-radius: 20px;
+        /* outline: 1px solid red; */
     }
 
     .center {
@@ -216,6 +218,10 @@ h2 {
 
     .left-side, .right-side {
         width: 100%;
+    }
+
+    .left-side {
+        border-radius: 20px;
     }
 
     .left-side p {
