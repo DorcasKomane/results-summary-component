@@ -43,7 +43,7 @@ body {
 
 .left-side{
     align-items: center;
-    background: linear-gradient(0deg, var(--gradient-violet-blue),var(--gradient-light-slate-blue));
+    background: linear-gradient(0deg, var(--gradient-light-royal-blue),var(--gradient-light-slate-blue));
     border-radius: 0 0 20px 20px;
 }
 
@@ -224,6 +224,4 @@ h2 {
     .attribution { 
         display: block;
     }
-}
-
 }
