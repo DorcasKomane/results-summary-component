@@ -29,7 +29,7 @@ Users should be able to:
 
 ![](https://i.ibb.co/rsmXKZK/results-summary-component-desktop.png)
 
-![](https://i.ibb.co/Yjmnfgn/results-summary-component-mobile.png)
+![](https://i.ibb.co/5LjR5JS/results-summary-component-mobile.png)
 
 
 ### Links
@@ -78,6 +78,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Dorcas Komane - Portfolio Website](https://dorcas-portfolio-site.netlify.app/)
+- Website - [Dorcas Komane](https://dorcas-portfolio-site.netlify.app/)
 - Frontend Mentor - [@DorcasKomane](https://www.frontendmentor.io/profile/DorcasKomane)
 - Twitter - [@DorcasInTech](https://www.twitter.com/DorcasInTech)
