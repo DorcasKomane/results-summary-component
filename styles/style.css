@@ -25,20 +25,15 @@ body {
 .main-container {
     display: block;
     border-radius: 20px;
-    /* width: 500px; */
     margin: 20px;
     box-shadow: 10px 10px 20px hsl(221, 100%, 96%);
 
-    /* outline: 1px solid red; */
 }
 
 .left-side, .right-side {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     padding: 20px;
-    /* width: 100%; */
 }
 
 .left-side{
@@ -95,7 +90,6 @@ h1{
 
 .right-side {
     border-radius: 0 20px 20px 0;
-    /* outline: 1px solid green; */
 }
 
 h2 {
@@ -139,19 +133,19 @@ h2 {
     padding-right: 5px;
 }
 
-#reaction {
+.reaction {
     color:hsl(0, 100%, 67%);
 }
 
-#memory {
+.memory {
     color:hsl(39, 100%, 56%);
 }
 
-#verbal {
+.verbal {
     color:hsl(166, 100%, 37%);
 }
 
-#visual{
+.visual{
     color: hsl(234, 85%, 45%);
 }
 

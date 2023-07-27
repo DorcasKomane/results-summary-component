@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Reaction",
+    "score": 80,
+    "icon": "https://i.ibb.co/3fCRZ4r/icon-reaction.png"
+  },
+  {
+    "category": "Memory",
+    "score": 92,
+    "icon": "https://i.ibb.co/t2WqDJQ/icon-memory.png"
+  },
+  {
+    "category": "Verbal",
+    "score": 61,
+    "icon": "https://i.ibb.co/qCSyN4T/icon-verbal.png"
+  },
+  {
+    "category": "Visual",
+    "score": 72,
+    "icon": "https://i.ibb.co/JqSzp4t/icon-visual.png"
+  }
+]
