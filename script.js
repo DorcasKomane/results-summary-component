@@ -1,4 +1,3 @@
-
 // Function to fetch JSON data and content from each object 
 async function displaySummaryItems() {
     try {
@@ -6,7 +5,7 @@ async function displaySummaryItems() {
       const response = await fetch('./data.json');
       const data = await response.json();
   
-      // Get the container div where we will display the subject marks
+      // Get the container div where we will display the summary items
       const container = document.getElementById('right-side');
     //   const categoryDiv = document.getElementById('item');
   
@@ -33,10 +32,31 @@ async function displaySummaryItems() {
         itemTitleDiv.appendChild(categoryDiv);
 
         const scoreDiv = document.createElement('div');
-        scoreDiv.classList.add('itemScore');
-        scoreDiv.innerHTML = `${data[i].score} / 100`;
-        container.appendChild(scoreDiv);
+        scoreDiv.classList.add('item-score');
+        summaryItemDiv.appendChild(scoreDiv);
+
+        const topScoreDiv = document.createElement('span');
+        topScoreDiv.classList.add('item-score-top');
+        topScoreDiv.innerHTML = `${data[i].score}`;
+        scoreDiv.appendChild(topScoreDiv);
+
+        const bottomScoreDiv = document.createElement('span');
+        bottomScoreDiv.classList.add('item-score-bott');
+        bottomScoreDiv.innerHTML = `/ 100`;
+        scoreDiv.appendChild(bottomScoreDiv);
+
       }
+
+      const buttonDiv = document.createElement('button');
+      buttonDiv.classList.add('btn');
+      buttonDiv.innerHTML = `Continue`;
+      container.appendChild(buttonDiv);
+
+      const summaryHeading = document.createElement('h2');
+      summaryHeading.textContent = 'Summary';
+      container.insertBefore(summaryHeading, container.firstElementChild);
+
+      
 
     } catch (error) {
       console.error('Error fetching or displaying data:', error);
