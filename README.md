@@ -29,9 +29,6 @@ Users should be able to:
 
 ![](https://i.ibb.co/rsmXKZK/results-summary-component-desktop.png)
 
-![](https://i.ibb.co/5LjR5JS/results-summary-component-mobile.png)
-
-
 ### Links
 
 - Solution URL: [https://github.com/DorcasKomane/results-summary-component](https://github.com/DorcasKomane/results-summary-component)
@@ -63,23 +60,25 @@ Users should be able to:
 
 - Working with a JSON file to retrieve data and display it dynamically on the page, following a specific structure.
 - Creating and styling HTML elements using JavaScript.
-- How to loop through an array of objects and display the corresponding data in different divs. Also applying different color and background to each object 
-    ```js
-    for(let i = 0; i < data.length; i++){
-            const summaryItemDiv = document.createElement('div');
-            summaryItemDiv.classList.add('summary-item');
-            summaryItemDiv.style.background = `${data[i].background}`;
-            rightContainer.appendChild(summaryItemDiv);
-    }
-    ```
+- How to loop through an array of objects and display the corresponding data in different divs. Also applying different color and background to each object
+  
+```js
+for(let i = 0; i < data.length; i++){
+        const summaryItemDiv = document.createElement('div');
+        summaryItemDiv.classList.add('summary-item');
+        summaryItemDiv.style.background = `${data[i].background}`;
+        rightContainer.appendChild(summaryItemDiv);
+}
+```
 
 ### Continued development
 
-- More practice with working with JSON files to retrieve data and display in the browser.
+- More practice working with JSON files to retrieve data and display in the browser.
 - Working with data that needs to be displayed dynamically.
-- DOM 
 - Recreating a given design in the browser.
+- Async / Await concept
 
+  
 ### Useful resources
 
 - [2 Column Layouts (Responsinve Flexbox & CSS Grid) by Matthew James Taylor](https://matthewjamestaylor.com/2-column-layouts) - This helped me use the grid in a mobile-first approach.
