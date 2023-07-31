@@ -1,15 +1,15 @@
-// Function to fetch JSON data and content from each object 
+// Function to fetch JSON data and display content from each object 
 async function displaySummaryItems() {
     try {
       // Fetch the JSON file using Fetch API
       const response = await fetch('./data.json');
       const data = await response.json();
   
-      // Get the container div where we will display the summary items
+      // Get the container divs where we will display the content
       const rightContainer = document.getElementById('right-side');
       const leftContainer = document.getElementById('left-side');
 
-      //set up variables to be used to calculate final result
+      //set up variable to be used to calculate final result
       let sum = 0;
   
       // Loop through each object and create the necessary divs for its contents 
@@ -97,5 +97,5 @@ async function displaySummaryItems() {
     }
   }
   
-  // Call the function to display the subject marks when the page loads
+  // Call the function to display the result when the page loads
   displaySummaryItems(); 

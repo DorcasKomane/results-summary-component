@@ -151,11 +151,12 @@ h2 {
 .attribution { 
     position: absolute;
     left: 50%;
-    bottom: 5%;
+    bottom: -20%;
     transform: translate(-50%, -50%);
     font-size: 11px; 
     text-align: center; 
-    margin-top: 50px;
+    /* margin-top: 30px; */
+    width: 100%;
 }
 
 /* Media Queries */
