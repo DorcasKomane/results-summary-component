@@ -133,39 +133,6 @@ h2 {
     padding-right: 5px;
 }
 
-.reaction {
-    color:hsl(0, 100%, 67%);
-}
-
-.memory {
-    color:hsl(39, 100%, 56%);
-}
-
-.verbal {
-    color:hsl(166, 100%, 37%);
-}
-
-.visual{
-    color: hsl(234, 85%, 45%);
-}
-
-#item-01 {
-    background: hsla(0, 100%, 67%, 0.05);
-}
-
-#item-02 {
-    background: hsla(39, 100%, 56%, 0.05);
-}
-
-#item-03 {
-    background: hsla(166, 100%, 37%, 0.05);
-}
-
-#item-04 {
-    background: hsla(234, 85%, 45%, 0.05);
-}
-
-
 .btn {
     padding: 10px 40px;
     border: 1px solid var(--neutral-dark-gray-blue);
