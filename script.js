@@ -14,10 +14,12 @@ async function displaySummaryItems() {
 
         const summaryItemDiv = document.createElement('div');
         summaryItemDiv.classList.add('summary-item');
+        summaryItemDiv.style.background = `${data[i].background}`;
         container.appendChild(summaryItemDiv);
 
         const itemTitleDiv = document.createElement('div');
         itemTitleDiv.classList.add('item-title');
+        summaryItemDiv.style.color = `${data[i].color}`;
         summaryItemDiv.appendChild(itemTitleDiv);
         
         const icon = document.createElement('img');
@@ -33,6 +35,7 @@ async function displaySummaryItems() {
 
         const scoreDiv = document.createElement('div');
         scoreDiv.classList.add('item-score');
+        scoreDiv.style.color = 'black';
         summaryItemDiv.appendChild(scoreDiv);
 
         const topScoreDiv = document.createElement('span');
@@ -56,7 +59,7 @@ async function displaySummaryItems() {
       summaryHeading.textContent = 'Summary';
       container.insertBefore(summaryHeading, container.firstElementChild);
 
-      
+
 
     } catch (error) {
       console.error('Error fetching or displaying data:', error);
