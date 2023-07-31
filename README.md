@@ -59,6 +59,8 @@ Users should be able to:
 ```
 
 - Working with a JSON file to retrieve data and display it dynamically on the page, following a specific structure.
+- Using fetch() to retrieve data from a JSON file.
+- Using Async / Await concept with fetch().
 - Creating and styling HTML elements using JavaScript.
 - How to loop through an array of objects and display the corresponding data in different divs. Also applying different color and background to each object
   
